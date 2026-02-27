@@ -1,9 +1,10 @@
-class stringh:
-    def get(self):
-        self.s = input()
-    def up(self):
-        print(self.s.upper())
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
 
-name = stringh()
-name.get()
-name.up()
+p1 = Person("Tobias", 25)
+print(p1.age)
+
+p1.age = 26
+print(p1.age)

@@ -8,18 +8,21 @@
 # res = li[:start] + li[start:end][::-1]+li[end:]
 # print(*res)
 n = int(input())
-l = input().split()
+# l = input().split()
 d = dict()
-un = l[0]
+# un = l[0]
 for i in range(n):
-    # name = input()
-    
-    if l[i] in d:
-        d[l[i]] += 1
+    name = input()
+    ser = int(input())
+    if name in d:
+        d[name] += ser
     else:
-        d[l[i]] = 1
+        d[name] = ser
     
-    print(d.values, d.keys)
+    
+for name, total in d.items():
+    print(f"{name}: {total}")
+    
 
         
         
