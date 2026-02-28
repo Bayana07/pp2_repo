@@ -1,6 +1,6 @@
 def g(n):
-    for i in range(0, n + 1, 12):
-        yield i
+    for i in range(n):
+        yield (i + 1) ** 2
 n = int(input())
 for k in g(n):
     print(k, end=" ")
