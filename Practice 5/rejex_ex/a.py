@@ -16,3 +16,6 @@ import re
 txt = "The rain in Spain"
 x = re.split("\s", txt, 1)
 print(x)
+
+c = re.search("cat", "I have a cat")
+print(c)
