@@ -128,20 +128,7 @@ def menu():
         elif ch == "5":
             delete()
         elif ch == "0":
-            print('''\n  Bye bye!     
-                   
-   ######
-##      ##
-##     ###
- #   #
-  #   #
-   #   #
-    #    #
-      #    #####
-       ##        ##
-         ##      ##
-           #####
-''')
+            print('''\n  See you!''')
             break
         else:
             print("INVALID CHOICE.")
