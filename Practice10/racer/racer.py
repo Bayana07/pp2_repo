@@ -15,7 +15,6 @@ image_background = pygame.image.load('AnimatedStreet.png')
 image_player = pygame.image.load('spider.jpg')
 image_enemy = pygame.image.load('kingpin.jpg')
 
-# 🔥 FIX: уменьшаем врага, чтобы он точно помещался в экран
 image_enemy = pygame.transform.scale(image_enemy, (80, 120))
 image_player = pygame.transform.scale(image_player, (80, 120))
 
