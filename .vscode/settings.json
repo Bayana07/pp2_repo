@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./TSIS/TSIS2"
+    ]
+}

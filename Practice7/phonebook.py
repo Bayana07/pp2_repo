@@ -5,7 +5,7 @@ from config import load_config
 config = load_config()
 conn = psycopg2.connect(**config)
 def createTable():
-     command = """CREATE TABLE phb (
+     command = """CREATE TABLE IF NOT EXISTS phb (
                 id SERIAL PRIMARY KEY,
                 name VARCHAR(255),
                 phone VARCHAR(31)
